@@ -95,6 +95,12 @@ header {
     padding-left: 140px;
     border-radius: 15px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    position: relative;
+}
+.banner-img {
+    position: absolute;
+    right: 10%;
+    top: 10%;
 }
 .banner-text h2 {
     width: 600px;
