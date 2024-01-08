@@ -236,6 +236,7 @@ header {
     color: #F00;
 }
 .holiday-text p {
+    padding: 0px 80px;
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
