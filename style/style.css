@@ -11,3 +11,435 @@ html,body {
     width: 100%;
     height: 100%;
 }
+/* Header Start */
+header {
+    height: 600px;
+    width: 85%;
+    background-image: url('../Images/Banner_Image.WEBP');
+    margin: auto;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.main-banner {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.main-banner h4 {
+    font-size: 32px;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+.main-banner h2 {
+    width: 650px;
+    font-size: 72px;
+    font-weight: 900;
+    color: #FFF;
+    line-height: 95px;
+    text-align: center;
+}
+/* Header End */
+
+.discount-section {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px;
+}
+.discount-section h1 {
+    font-size: 88px;
+    font-weight: 700;
+    color: #F00;
+    margin-bottom: 48px;
+}
+.discount-section h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+    margin-bottom: 16px;
+}
+.discount-section h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 48px;
+}
+
+
+/* Welcome-Banner section start */
+.banner-section {
+    background-image: url('../Images/Website.WEBP');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 85%;
+    height: 600px;
+    margin: auto;
+    border-radius: 15px;
+    margin-bottom: 120px;
+}
+.banner-text {
+    height: 100%;
+    padding-top: 126px;
+    padding-left: 140px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.banner-text h2 {
+    width: 600px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+.banner-text p {
+    width: 650px;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(255,255,255, 0.80);
+    margin-bottom: 48px;
+}
+.banner-text button {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    padding: 0px 20px;
+}
+/* Welcome-Banner section End */
+
+/* Place sectin start */
+.place-section {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 120px;
+}
+.place-text {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 15px;
+}
+.place-text button {
+    color: #FFF;
+    background-color: #F00;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+.place-section h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    margin-bottom: 48px;
+}
+.place-section span {
+    color: #F00;
+}
+/* Place sectin End */
+
+
+/* Offer section Start */
+.offer-section {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.offer-left h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.offer-left h2 {
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.offer-left p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(7,2,17, 0.60);
+    width: 393px;
+}
+.offer-middle img {
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 30px;
+}
+.offer-right h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #F00;
+    margin-bottom: 16px;
+}
+.offer-right p{
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7,2,17, 0.60);
+    width: 276px;
+    margin-bottom: 43px;
+}
+.offer-right img {
+
+}
+/* Offer section End */
+
+
+/* Holiday sale section start */
+.hodiday-sale-section {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.holiday-text {
+    text-align: center;
+}
+.holiday-text h5 {
+    font-size: 24px;
+    color: #070211;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+}
+.holiday-text h2 {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+    color: #070211;
+}
+.holiday-text h2 span {
+    color: #F00;
+}
+.holiday-text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(7,2,17, 0.60);
+    margin-bottom: 64px;
+}
+.holiday-image {
+    background-image: url('../Images/Rectangle_1.WEBP');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 433px;
+    position: relative;
+}
+.holiday-image img {
+    position: absolute;
+    right: 280px;
+    top: 50px;
+}
+.holiday-gift {
+    background-image: url('../Images/Rectangle_2.WEBP');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 229px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.holiday-gift img {
+    position: absolute;
+    top: -430px;
+}
+/* Holiday sale section End */
+
+
+/* Portfolio section Start */
+.portfolio-section {
+    width: 85%;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.portfolio-text h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #F00;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.portfolio-text h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.portfolio-text p {
+    width: 896px;
+    color: rgba(7,2,17, 0.60);
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 48px;
+}
+.portfolio-img {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.portfolio-img .img-box {
+    width: 424px;
+    height: 450px;
+    margin-bottom: 24px;
+    border-radius: 15px;
+    max-width: 1600px;
+    overflow: hidden;
+}
+.portfolio-img img {
+    height: 100%;
+    width: 100%;
+    transition: all ease 1s;
+}
+.img-box:hover img {
+    scale: 1.2;
+}
+/* Portfolio section End */
+
+/* Subscribe section Start */
+.subscribe-section {
+    width: 85%;
+    height: 616px;
+    margin: auto;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin-bottom: 120px;
+    text-align: center;
+    border-radius: 15px;
+}
+.subscribe-box {
+    padding: 80px 212px;
+}
+.subscribe-box img {
+    margin-bottom: 40px;
+}
+.subscribe-box h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #070211;
+    margin-bottom: 22px;
+}
+.subscribe-box p {
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7,2,17, 0.60);
+    margin-bottom: 48px;
+}
+.input-sec {
+    display: flex;
+    justify-content: center;
+}
+.subscribe-box .input-sec input {
+    padding: 25px 180px 25px 30px;
+    border: none;
+    font-size: 18px;
+    color: rgba(7,2,17, 0.30);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    outline: none;
+}
+.subscribe-box .input-sec button {
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 56px;
+    color: #FFF;
+    margin-left: -5px;
+    background-color: #F00;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/* Subscribe section End */
+
+/* Footer section Start */
+footer {
+    width: 100%;
+    background-color: #070211;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot-address {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+.address-left p {
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+.address-right ul li{
+    display: flex;
+    color: #FFF; 
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.address-right ul li img {
+    margin-right: 10px;
+}
+.foot-icons {
+    width: 85%;
+}
+.foot-icons .icon {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.foot-icons .icon img {
+    margin: 0px 12px;
+}
+.foot-copywright {
+    width: 85%;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copywright-left p {
+    font-size: 24px;
+    font-weight: 500;
+}
+.copywright-right a {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+    text-decoration: none;
+}
+/* Footer section End */
