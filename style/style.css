@@ -275,7 +275,9 @@ header {
 }
 .holiday-gift img {
     position: absolute;
-    top: -430px;
+    top: -417px;
+    left: -60px;
+    height: 681px;
 }
 /* Holiday sale section End */
 
